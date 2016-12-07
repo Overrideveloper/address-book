@@ -30,7 +30,7 @@ public class AddressBook_AddEntry extends javax.swing.JFrame{
 
 		setDefaultCloseOperation(javax.swing.JFrame.HIDE_ON_CLOSE);
 
-		setResizable(true);
+		setResizable(false);
 
 		jLabel1 = new javax.swing.JLabel("Contact Name: ");
 		jLabel2 = new javax.swing.JLabel("Contact Address: ");
