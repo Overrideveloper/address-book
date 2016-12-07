@@ -67,6 +67,26 @@ public class AddressBook_AddEntry extends javax.swing.JFrame{
 
 		jPanel4.add(jButton1);
 		jPanel4.add(jButton2);
-
+		
+		jButton1.addActionListener(new java.awt.event.ActionListener() {   
+			public void actionPerformed(java.awt.event.ActionEvent e) {  
+				AddressBookUI.addEntry(new AddressBook(jTextField1.getText(), jTextField2.getText(), jTextField3.getText(), jTextField4.getText()));
+			} 
+		});
+		
+		jButton2.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent e) {
+				setVisible(true);
+				dispose();
+			}
+		});  
+		
+		
+		jPanel5 = new javax.swing.JPanel(new java.awt.BorderLayout());  
+		jPanel5.add(jPanel3, java.awt.BorderLayout.CENTER);  
+		jPanel5.add(jPanel4, java.awt.BorderLayout.SOUTH);  
+		getContentPane().add(jPanel5);  
+		pack();  
+		setVisible(true);
         }
 }
