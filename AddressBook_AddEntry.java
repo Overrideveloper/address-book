@@ -89,4 +89,8 @@ public class AddressBook_AddEntry extends javax.swing.JFrame{
 		pack();  
 		setVisible(true);
         }
+		public static void main(String args[]){
+			javax.swing.JFrame.setDefaultLookAndFeelDecorated(true);
+			new AddressBook_AddEntry().setVisible(true);
+	}					
 }
