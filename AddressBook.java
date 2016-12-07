@@ -9,6 +9,7 @@
  */
 
 public class AddressBook{
+    //Declaring variables
     private String ContactName;
     private String ContactAddress;
     private String ContactTel;
